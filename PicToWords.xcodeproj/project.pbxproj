@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C896AC5C1AE0BC4500866387 /* xScissors.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C896AC5B1AE0BC4500866387 /* xScissors.jpeg */; };
+		C896AC5E1AE0BE2E00866387 /* xToilet.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C896AC5D1AE0BE2E00866387 /* xToilet.jpeg */; };
+		C896AC601AE441F400866387 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C896AC5F1AE441F400866387 /* Stack.swift */; };
+		C8AA46401AE0A93C00594663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AA463F1AE0A93C00594663 /* AppDelegate.swift */; };
+		C8AA46421AE0A93C00594663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AA46411AE0A93C00594663 /* ViewController.swift */; };
+		C8AA46451AE0A93C00594663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AA46431AE0A93C00594663 /* Main.storyboard */; };
+		C8AA46471AE0A93C00594663 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8AA46461AE0A93C00594663 /* Images.xcassets */; };
+		C8AA464A1AE0A93C00594663 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8AA46481AE0A93C00594663 /* LaunchScreen.xib */; };
+		C8AA46561AE0A93C00594663 /* PicToWordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AA46551AE0A93C00594663 /* PicToWordsTests.swift */; };
+		C8AA46681AE0A9CD00594663 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AA46671AE0A9CD00594663 /* KeyboardViewController.swift */; };
+		C8AA466B1AE0A9CD00594663 /* PicKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C8AA46631AE0A9CD00594663 /* PicKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C8AA46711AE0AAE300594663 /* KeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8AA46701AE0AAE300594663 /* KeyboardView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8AA46501AE0A93C00594663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8AA46321AE0A93C00594663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8AA46391AE0A93C00594663;
+			remoteInfo = PicToWords;
+		};
+		C8AA46691AE0A9CD00594663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8AA46321AE0A93C00594663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8AA46621AE0A9CD00594663;
+			remoteInfo = PicKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8AA466F1AE0A9CD00594663 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C8AA466B1AE0A9CD00594663 /* PicKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C896AC5B1AE0BC4500866387 /* xScissors.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xScissors.jpeg; sourceTree = "<group>"; };
+		C896AC5D1AE0BE2E00866387 /* xToilet.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xToilet.jpeg; sourceTree = "<group>"; };
+		C896AC5F1AE441F400866387 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		C8AA463A1AE0A93C00594663 /* PicToWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicToWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8AA463E1AE0A93C00594663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8AA463F1AE0A93C00594663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8AA46411AE0A93C00594663 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8AA46441AE0A93C00594663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8AA46461AE0A93C00594663 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C8AA46491AE0A93C00594663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C8AA464F1AE0A93C00594663 /* PicToWordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicToWordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8AA46541AE0A93C00594663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8AA46551AE0A93C00594663 /* PicToWordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicToWordsTests.swift; sourceTree = "<group>"; };
+		C8AA46631AE0A9CD00594663 /* PicKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PicKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8AA46661AE0A9CD00594663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8AA46671AE0A9CD00594663 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		C8AA46701AE0AAE300594663 /* KeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyboardView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8AA46371AE0A93C00594663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AA464C1AE0A93C00594663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AA46601AE0A9CD00594663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8AA46311AE0A93C00594663 = {
+			isa = PBXGroup;
+			children = (
+				C8AA463C1AE0A93C00594663 /* PicToWords */,
+				C8AA46521AE0A93C00594663 /* PicToWordsTests */,
+				C8AA46641AE0A9CD00594663 /* PicKeyboard */,
+				C8AA463B1AE0A93C00594663 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8AA463B1AE0A93C00594663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8AA463A1AE0A93C00594663 /* PicToWords.app */,
+				C8AA464F1AE0A93C00594663 /* PicToWordsTests.xctest */,
+				C8AA46631AE0A9CD00594663 /* PicKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8AA463C1AE0A93C00594663 /* PicToWords */ = {
+			isa = PBXGroup;
+			children = (
+				C8AA463F1AE0A93C00594663 /* AppDelegate.swift */,
+				C8AA46411AE0A93C00594663 /* ViewController.swift */,
+				C8AA46431AE0A93C00594663 /* Main.storyboard */,
+				C8AA46461AE0A93C00594663 /* Images.xcassets */,
+				C8AA46481AE0A93C00594663 /* LaunchScreen.xib */,
+				C8AA463D1AE0A93C00594663 /* Supporting Files */,
+			);
+			path = PicToWords;
+			sourceTree = "<group>";
+		};
+		C8AA463D1AE0A93C00594663 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8AA463E1AE0A93C00594663 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8AA46521AE0A93C00594663 /* PicToWordsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8AA46551AE0A93C00594663 /* PicToWordsTests.swift */,
+				C8AA46531AE0A93C00594663 /* Supporting Files */,
+			);
+			path = PicToWordsTests;
+			sourceTree = "<group>";
+		};
+		C8AA46531AE0A93C00594663 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8AA46541AE0A93C00594663 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8AA46641AE0A9CD00594663 /* PicKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C8AA46671AE0A9CD00594663 /* KeyboardViewController.swift */,
+				C8AA46701AE0AAE300594663 /* KeyboardView.xib */,
+				C896AC5D1AE0BE2E00866387 /* xToilet.jpeg */,
+				C896AC5B1AE0BC4500866387 /* xScissors.jpeg */,
+				C8AA46651AE0A9CD00594663 /* Supporting Files */,
+				C896AC5F1AE441F400866387 /* Stack.swift */,
+			);
+			path = PicKeyboard;
+			sourceTree = "<group>";
+		};
+		C8AA46651AE0A9CD00594663 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8AA46661AE0A9CD00594663 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8AA46391AE0A93C00594663 /* PicToWords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8AA46591AE0A93C00594663 /* Build configuration list for PBXNativeTarget "PicToWords" */;
+			buildPhases = (
+				C8AA46361AE0A93C00594663 /* Sources */,
+				C8AA46371AE0A93C00594663 /* Frameworks */,
+				C8AA46381AE0A93C00594663 /* Resources */,
+				C8AA466F1AE0A9CD00594663 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8AA466A1AE0A9CD00594663 /* PBXTargetDependency */,
+			);
+			name = PicToWords;
+			productName = PicToWords;
+			productReference = C8AA463A1AE0A93C00594663 /* PicToWords.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8AA464E1AE0A93C00594663 /* PicToWordsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8AA465C1AE0A93C00594663 /* Build configuration list for PBXNativeTarget "PicToWordsTests" */;
+			buildPhases = (
+				C8AA464B1AE0A93C00594663 /* Sources */,
+				C8AA464C1AE0A93C00594663 /* Frameworks */,
+				C8AA464D1AE0A93C00594663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8AA46511AE0A93C00594663 /* PBXTargetDependency */,
+			);
+			name = PicToWordsTests;
+			productName = PicToWordsTests;
+			productReference = C8AA464F1AE0A93C00594663 /* PicToWordsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8AA46621AE0A9CD00594663 /* PicKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8AA466C1AE0A9CD00594663 /* Build configuration list for PBXNativeTarget "PicKeyboard" */;
+			buildPhases = (
+				C8AA465F1AE0A9CD00594663 /* Sources */,
+				C8AA46601AE0A9CD00594663 /* Frameworks */,
+				C8AA46611AE0A9CD00594663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicKeyboard;
+			productName = PicKeyboard;
+			productReference = C8AA46631AE0A9CD00594663 /* PicKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8AA46321AE0A93C00594663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Nikolai Vogler";
+				TargetAttributes = {
+					C8AA46391AE0A93C00594663 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					C8AA464E1AE0A93C00594663 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = C8AA46391AE0A93C00594663;
+					};
+					C8AA46621AE0A9CD00594663 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = C8AA46351AE0A93C00594663 /* Build configuration list for PBXProject "PicToWords" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8AA46311AE0A93C00594663;
+			productRefGroup = C8AA463B1AE0A93C00594663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8AA46391AE0A93C00594663 /* PicToWords */,
+				C8AA464E1AE0A93C00594663 /* PicToWordsTests */,
+				C8AA46621AE0A9CD00594663 /* PicKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8AA46381AE0A93C00594663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AA46451AE0A93C00594663 /* Main.storyboard in Resources */,
+				C8AA464A1AE0A93C00594663 /* LaunchScreen.xib in Resources */,
+				C8AA46471AE0A93C00594663 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AA464D1AE0A93C00594663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AA46611AE0A9CD00594663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AA46711AE0AAE300594663 /* KeyboardView.xib in Resources */,
+				C896AC5E1AE0BE2E00866387 /* xToilet.jpeg in Resources */,
+				C896AC5C1AE0BC4500866387 /* xScissors.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8AA46361AE0A93C00594663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AA46421AE0A93C00594663 /* ViewController.swift in Sources */,
+				C8AA46401AE0A93C00594663 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AA464B1AE0A93C00594663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AA46561AE0A93C00594663 /* PicToWordsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AA465F1AE0A9CD00594663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C896AC601AE441F400866387 /* Stack.swift in Sources */,
+				C8AA46681AE0A9CD00594663 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8AA46511AE0A93C00594663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8AA46391AE0A93C00594663 /* PicToWords */;
+			targetProxy = C8AA46501AE0A93C00594663 /* PBXContainerItemProxy */;
+		};
+		C8AA466A1AE0A9CD00594663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8AA46621AE0A9CD00594663 /* PicKeyboard */;
+			targetProxy = C8AA46691AE0A9CD00594663 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8AA46431AE0A93C00594663 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8AA46441AE0A93C00594663 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8AA46481AE0A93C00594663 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8AA46491AE0A93C00594663 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8AA46571AE0A93C00594663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8AA46581AE0A93C00594663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8AA465A1AE0A93C00594663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PicToWords/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8AA465B1AE0A93C00594663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PicToWords/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C8AA465D1AE0A93C00594663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PicToWordsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicToWords.app/PicToWords";
+			};
+			name = Debug;
+		};
+		C8AA465E1AE0A93C00594663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PicToWordsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicToWords.app/PicToWords";
+			};
+			name = Release;
+		};
+		C8AA466D1AE0A9CD00594663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PicKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C8AA466E1AE0A9CD00594663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = PicKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8AA46351AE0A93C00594663 /* Build configuration list for PBXProject "PicToWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AA46571AE0A93C00594663 /* Debug */,
+				C8AA46581AE0A93C00594663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8AA46591AE0A93C00594663 /* Build configuration list for PBXNativeTarget "PicToWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AA465A1AE0A93C00594663 /* Debug */,
+				C8AA465B1AE0A93C00594663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8AA465C1AE0A93C00594663 /* Build configuration list for PBXNativeTarget "PicToWordsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AA465D1AE0A93C00594663 /* Debug */,
+				C8AA465E1AE0A93C00594663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8AA466C1AE0A9CD00594663 /* Build configuration list for PBXNativeTarget "PicKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AA466D1AE0A9CD00594663 /* Debug */,
+				C8AA466E1AE0A9CD00594663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8AA46321AE0A93C00594663 /* Project object */;
+}
