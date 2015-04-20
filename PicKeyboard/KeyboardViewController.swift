@@ -32,7 +32,7 @@ class KeyboardViewController: UIInputViewController {
         
         self.nextKeyboardButton.addTarget(self, action: "advanceToNextInputMode", forControlEvents: .TouchUpInside)
         
-        
+        // Commented out nextKeyboardButton provided boilerplate
         // Perform custom UI setup here
 //        self.nextKeyboardButton = UIButton.buttonWithType(.System) as! UIButton
     
@@ -60,9 +60,8 @@ class KeyboardViewController: UIInputViewController {
         }
         else { }
     }
-    
-    // TODO: Only deletes a single character at a time here
-    // FIX POSITION OF DELETE BUTTON AS WELL
+
+    // FIX POSITION OF DELETE BUTTON
     @IBAction func deleteButtonPressed(button: UIButton) {
         if (inputtedWordLengths.isEmpty()) {
             (textDocumentProxy as! UIKeyInput).deleteBackward()
