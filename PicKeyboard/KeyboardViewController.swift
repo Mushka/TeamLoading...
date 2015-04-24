@@ -31,20 +31,6 @@ class KeyboardViewController: UIInputViewController {
         view = objects[0] as! UIView
         
         self.nextKeyboardButton.addTarget(self, action: "advanceToNextInputMode", forControlEvents: .TouchUpInside)
-        
-        // Commented out nextKeyboardButton provided boilerplate
-        // Perform custom UI setup here
-//        self.nextKeyboardButton = UIButton.buttonWithType(.System) as! UIButton
-    
-//        self.nextKeyboardButton.setTitle(NSLocalizedString("ABC", comment: "ABC"), forState: .Normal)
-//        self.nextKeyboardButton.sizeToFit()
-//        self.nextKeyboardButton.setTranslatesAutoresizingMaskIntoConstraints(false)
-        
-//        self.view.addSubview(self.nextKeyboardButton)
-    
-//        var nextKeyboardButtonLeftSideConstraint = NSLayoutConstraint(item: self.nextKeyboardButton, attribute: .Left, relatedBy: .Equal, toItem: self.view, attribute: .Left, multiplier: 1.0, constant: 0.0)
-//        var nextKeyboardButtonBottomConstraint = NSLayoutConstraint(item: self.nextKeyboardButton, attribute: .Bottom, relatedBy: .Equal, toItem: self.view, attribute: .Bottom, multiplier: 1.0, constant: 0.0)
-//        self.view.addConstraints([nextKeyboardButtonLeftSideConstraint, nextKeyboardButtonBottomConstraint])
     }
     
     @IBAction func picButtonPressed(button: UIButton) {
